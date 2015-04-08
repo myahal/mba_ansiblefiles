@@ -38,6 +38,9 @@
       - { name: fish }
       - { name: rbenv }
       - { name: ruby-build }
+      - { name: rbenv-default-gems }
+      - { name: rbenv-gemset }
+      - { name: nodebrew }
       - { name: imagemagick }
       - { name: packer }
       - { name: xz }
