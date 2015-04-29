@@ -71,7 +71,6 @@
       - { name: webstorm }
       - { name: vagrant }
       - { name: virtualbox }
-      - { name: 1password }
       - { name: dropbox }
       - { name: evernote }
       - { name: bettertouchtool }
@@ -137,6 +136,7 @@
       args:
         creates: ~/Library/Fonts/Ricty-Bold.ttf
       notify: run fc-cache
+
 
     # alfred
     - name: alfredの設定 (Search Scopeは手動で設定)
